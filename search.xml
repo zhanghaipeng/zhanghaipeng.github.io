@@ -3,6 +3,44 @@
   
     
     <entry>
+      <title><![CDATA[linux命令-netstat]]></title>
+      <url>/2017/08/22/linux%E5%91%BD%E4%BB%A4-netstat/</url>
+      <content type="html"><![CDATA[<p>netstat命令，用于显示网络相关信息，如网络连接，路由表，接口状态（interface statistics）, masquerade 连接，多播成员(multicase memberships)等等。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[python环境部署]]></title>
+      <url>/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</url>
+      <content type="html"><![CDATA[<p>脚本选择：</p>
+<p>启动脚本最好使用shell脚本，避免直接使用.py作为脚本</p>
+<p>wsgi.py还是manager.py 需要调研</p>
+<p>环境验证：</p>
+<p>显示服务器占用某个特定tcp端口的进程的pid<br>netstat -ntlp | grep 8421</p>
+<p>curl ‘<a href="http://ip:port/checkappstatus.html’" target="_blank" rel="external">http://ip:port/checkappstatus.html’</a> 验证服务是否可用</p>
+<p>linux命令：</p>
+<p><a href="http://www.linuxidc.com/Linux/2013-06/85528.htm" target="_blank" rel="external">http://www.linuxidc.com/Linux/2013-06/85528.htm</a></p>
+<p><a href="http://blog.csdn.net/iloveyin/article/details/38512793" target="_blank" rel="external">http://blog.csdn.net/iloveyin/article/details/38512793</a></p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[《东京本屋》读书笔记]]></title>
       <url>/2017/08/19/%E3%80%8A%E4%B8%9C%E4%BA%AC%E6%9C%AC%E5%B1%8B%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
       <content type="html"><![CDATA[<p>年初，在一个微信公众号看到推荐《东京本屋》，内容是介绍东京的实体书店。一直对日本这个国家很感兴趣，又是关于东京的书店，怀着好奇的心理读完了这本书。</p>

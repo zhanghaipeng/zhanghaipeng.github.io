@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhanghaipeng.github.io/"/>
-  <updated>2017-08-19T02:42:16.000Z</updated>
+  <updated>2017-08-21T16:26:17.000Z</updated>
   <id>https://zhanghaipeng.github.io/</id>
   
   <author>
@@ -14,6 +14,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux命令-netstat</title>
+    <link href="https://zhanghaipeng.github.io/2017/08/22/linux%E5%91%BD%E4%BB%A4-netstat/"/>
+    <id>https://zhanghaipeng.github.io/2017/08/22/linux命令-netstat/</id>
+    <published>2017-08-21T16:23:14.000Z</published>
+    <updated>2017-08-21T16:26:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>netstat命令，用于显示网络相关信息，如网络连接，路由表，接口状态（interface statistics）, masquerade 连接，多播成员(multicase memberships)等等。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;netstat命令，用于显示网络相关信息，如网络连接，路由表，接口状态（interface statistics）, masquerade 连接，多播成员(multicase memberships)等等。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="https://zhanghaipeng.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python环境部署</title>
+    <link href="https://zhanghaipeng.github.io/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
+    <id>https://zhanghaipeng.github.io/2017/08/21/python环境部署/</id>
+    <published>2017-08-21T15:59:58.000Z</published>
+    <updated>2017-08-21T16:27:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>脚本选择：</p>
+<p>启动脚本最好使用shell脚本，避免直接使用.py作为脚本</p>
+<p>wsgi.py还是manager.py 需要调研</p>
+<p>环境验证：</p>
+<p>显示服务器占用某个特定tcp端口的进程的pid<br>netstat -ntlp | grep 8421</p>
+<p>curl ‘<a href="http://ip:port/checkappstatus.html’" target="_blank" rel="external">http://ip:port/checkappstatus.html’</a> 验证服务是否可用</p>
+<p>linux命令：</p>
+<p><a href="http://www.linuxidc.com/Linux/2013-06/85528.htm" target="_blank" rel="external">http://www.linuxidc.com/Linux/2013-06/85528.htm</a></p>
+<p><a href="http://blog.csdn.net/iloveyin/article/details/38512793" target="_blank" rel="external">http://blog.csdn.net/iloveyin/article/details/38512793</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;脚本选择：&lt;/p&gt;
+&lt;p&gt;启动脚本最好使用shell脚本，避免直接使用.py作为脚本&lt;/p&gt;
+&lt;p&gt;wsgi.py还是manager.py 需要调研&lt;/p&gt;
+&lt;p&gt;环境验证：&lt;/p&gt;
+&lt;p&gt;显示服务器占用某个特定tcp端口的进程的pid&lt;br&gt;netstat -ntlp |
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://zhanghaipeng.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>《东京本屋》读书笔记</title>
