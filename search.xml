@@ -55,8 +55,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[python环境部署-django配置]]></title>
-      <url>/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2-django%E9%85%8D%E7%BD%AE/</url>
+      <title><![CDATA[python环境部署-配置django]]></title>
+      <url>/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2-%E9%85%8D%E7%BD%AEdjango/</url>
       <content type="html"><![CDATA[<h3 id="脚本选择："><a href="#脚本选择：" class="headerlink" title="脚本选择："></a>脚本选择：</h3><p>启动脚本最好使用shell脚本，避免直接使用.py作为脚本</p>
 <p>wsgi.py还是manager.py 需要调研</p>
 <h3 id="环境验证："><a href="#环境验证：" class="headerlink" title="环境验证："></a>环境验证：</h3><p>显示服务器占用某个特定tcp端口的进程的pid</p>
