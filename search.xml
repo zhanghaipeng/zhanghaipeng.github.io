@@ -3,6 +3,20 @@
   
     
     <entry>
+      <title><![CDATA[python环境部署-配置科学计算库]]></title>
+      <url>/2017/08/22/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2-%E9%85%8D%E7%BD%AE%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%BA%93/</url>
+      <content type="html"></content>
+      
+        
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[linux命令-netstat]]></title>
       <url>/2017/08/22/linux%E5%91%BD%E4%BB%A4-netstat/</url>
       <content type="html"><![CDATA[<h3 id="netstat命令"><a href="#netstat命令" class="headerlink" title="netstat命令"></a>netstat命令</h3><p>netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。</p>
@@ -41,12 +55,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[python环境部署]]></title>
-      <url>/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</url>
+      <title><![CDATA[python环境部署-django配置]]></title>
+      <url>/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2-django%E9%85%8D%E7%BD%AE/</url>
       <content type="html"><![CDATA[<h3 id="脚本选择："><a href="#脚本选择：" class="headerlink" title="脚本选择："></a>脚本选择：</h3><p>启动脚本最好使用shell脚本，避免直接使用.py作为脚本</p>
 <p>wsgi.py还是manager.py 需要调研</p>
-<h3 id="环境验证："><a href="#环境验证：" class="headerlink" title="环境验证："></a>环境验证：</h3><p>显示服务器占用某个特定tcp端口的进程的pid<br>netstat -ntlp | grep 8421</p>
-<p>curl ‘<a href="http://ip:port/checkappstatus.html’" target="_blank" rel="external">http://ip:port/checkappstatus.html’</a> 验证服务是否可用</p>
+<h3 id="环境验证："><a href="#环境验证：" class="headerlink" title="环境验证："></a>环境验证：</h3><p>显示服务器占用某个特定tcp端口的进程的pid</p>
+<p>netstat -ntlp | grep 8421</p>
+<p>验证服务是否可用</p>
+<p>curl ‘<a href="http://ip:port/checkappstatus.html’" target="_blank" rel="external">http://ip:port/checkappstatus.html’</a> </p>
 <a id="more"></a>
 ]]></content>
       

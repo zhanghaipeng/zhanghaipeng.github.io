@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhanghaipeng.github.io/"/>
-  <updated>2017-08-22T13:35:58.000Z</updated>
+  <updated>2017-08-22T13:58:37.000Z</updated>
   <id>https://zhanghaipeng.github.io/</id>
   
   <author>
@@ -14,6 +14,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python环境部署-配置科学计算库</title>
+    <link href="https://zhanghaipeng.github.io/2017/08/22/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2-%E9%85%8D%E7%BD%AE%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%BA%93/"/>
+    <id>https://zhanghaipeng.github.io/2017/08/22/python环境部署-配置科学计算库/</id>
+    <published>2017-08-22T13:55:36.000Z</published>
+    <updated>2017-08-22T13:58:37.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://zhanghaipeng.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>linux命令-netstat</title>
@@ -63,16 +79,18 @@
   </entry>
   
   <entry>
-    <title>python环境部署</title>
-    <link href="https://zhanghaipeng.github.io/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
-    <id>https://zhanghaipeng.github.io/2017/08/21/python环境部署/</id>
+    <title>python环境部署-django配置</title>
+    <link href="https://zhanghaipeng.github.io/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2-django%E9%85%8D%E7%BD%AE/"/>
+    <id>https://zhanghaipeng.github.io/2017/08/21/python环境部署-django配置/</id>
     <published>2017-08-21T15:59:58.000Z</published>
-    <updated>2017-08-22T13:37:29.000Z</updated>
+    <updated>2017-08-22T13:57:47.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="脚本选择："><a href="#脚本选择：" class="headerlink" title="脚本选择："></a>脚本选择：</h3><p>启动脚本最好使用shell脚本，避免直接使用.py作为脚本</p>
 <p>wsgi.py还是manager.py 需要调研</p>
-<h3 id="环境验证："><a href="#环境验证：" class="headerlink" title="环境验证："></a>环境验证：</h3><p>显示服务器占用某个特定tcp端口的进程的pid<br>netstat -ntlp | grep 8421</p>
-<p>curl ‘<a href="http://ip:port/checkappstatus.html’" target="_blank" rel="external">http://ip:port/checkappstatus.html’</a> 验证服务是否可用</p>
+<h3 id="环境验证："><a href="#环境验证：" class="headerlink" title="环境验证："></a>环境验证：</h3><p>显示服务器占用某个特定tcp端口的进程的pid</p>
+<p>netstat -ntlp | grep 8421</p>
+<p>验证服务是否可用</p>
+<p>curl ‘<a href="http://ip:port/checkappstatus.html’" target="_blank" rel="external">http://ip:port/checkappstatus.html’</a> </p>
 <a id="more"></a>
 ]]></content>
     
@@ -80,8 +98,10 @@
     
       &lt;h3 id=&quot;脚本选择：&quot;&gt;&lt;a href=&quot;#脚本选择：&quot; class=&quot;headerlink&quot; title=&quot;脚本选择：&quot;&gt;&lt;/a&gt;脚本选择：&lt;/h3&gt;&lt;p&gt;启动脚本最好使用shell脚本，避免直接使用.py作为脚本&lt;/p&gt;
 &lt;p&gt;wsgi.py还是manager.py 需要调研&lt;/p&gt;
-&lt;h3 id=&quot;环境验证：&quot;&gt;&lt;a href=&quot;#环境验证：&quot; class=&quot;headerlink&quot; title=&quot;环境验证：&quot;&gt;&lt;/a&gt;环境验证：&lt;/h3&gt;&lt;p&gt;显示服务器占用某个特定tcp端口的进程的pid&lt;br&gt;netstat -ntlp | grep 8421&lt;/p&gt;
-&lt;p&gt;curl ‘&lt;a href=&quot;http://ip:port/checkappstatus.html’&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ip:port/checkappstatus.html’&lt;/a&gt; 验证服务是否可用&lt;/p&gt;
+&lt;h3 id=&quot;环境验证：&quot;&gt;&lt;a href=&quot;#环境验证：&quot; class=&quot;headerlink&quot; title=&quot;环境验证：&quot;&gt;&lt;/a&gt;环境验证：&lt;/h3&gt;&lt;p&gt;显示服务器占用某个特定tcp端口的进程的pid&lt;/p&gt;
+&lt;p&gt;netstat -ntlp | grep 8421&lt;/p&gt;
+&lt;p&gt;验证服务是否可用&lt;/p&gt;
+&lt;p&gt;curl ‘&lt;a href=&quot;http://ip:port/checkappstatus.html’&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ip:port/checkappstatus.html’&lt;/a&gt; &lt;/p&gt;
     
     </summary>
     

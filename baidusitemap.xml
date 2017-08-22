@@ -4,11 +4,28 @@
 
     
   <url>
-    <loc>https://zhanghaipeng.github.io/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</loc>
-    <lastmod>2017-08-22T13:37:29.000Z</lastmod>
+    <loc>https://zhanghaipeng.github.io/2017/08/22/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2-%E9%85%8D%E7%BD%AE%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%BA%93/</loc>
+    <lastmod>2017-08-22T13:58:37.000Z</lastmod>
     <data>
         <display>
-        <title>python环境部署</title>
+        <title>python环境部署-配置科学计算库</title>
+        <pubTime>2017-08-22T13:55:36.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zhanghaipeng.github.io/2017/08/21/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2-django%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2017-08-22T13:57:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>python环境部署-django配置</title>
         <pubTime>2017-08-21T15:59:58.000Z</pubTime>
         
         <tag>python</tag>
