@@ -96,18 +96,18 @@
 
 
 
-<meta name="description" content="netstat命令，用于显示网络相关信息，如网络连接，路由表，接口状态（interface statistics）, masquerade 连接，多播成员(multicase memberships)等等。">
+<meta name="description" content="###netstat命令 netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。 执行netstat命令，输出结果主要分为两部分： 一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到 一个是活跃的U">
 <meta name="keywords" content="linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux命令-netstat">
 <meta property="og:url" content="https://zhanghaipeng.github.io/2017/08/22/linux命令-netstat/index.html">
 <meta property="og:site_name" content="太阳那么大の博客">
-<meta property="og:description" content="netstat命令，用于显示网络相关信息，如网络连接，路由表，接口状态（interface statistics）, masquerade 连接，多播成员(multicase memberships)等等。">
+<meta property="og:description" content="###netstat命令 netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。 执行netstat命令，输出结果主要分为两部分： 一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到 一个是活跃的U">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-21T16:26:17.000Z">
+<meta property="og:updated_time" content="2017-08-22T02:01:34.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="linux命令-netstat">
-<meta name="twitter:description" content="netstat命令，用于显示网络相关信息，如网络连接，路由表，接口状态（interface statistics）, masquerade 连接，多播成员(multicase memberships)等等。">
+<meta name="twitter:description" content="###netstat命令 netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。 执行netstat命令，输出结果主要分为两部分： 一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到 一个是活跃的U">
 
 
 
@@ -360,7 +360,30 @@
       
 
       
-        <p>netstat命令，用于显示网络相关信息，如网络连接，路由表，接口状态（interface statistics）, masquerade 连接，多播成员(multicase memberships)等等。</p>
+        <p>###netstat命令</p>
+<p>netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。</p>
+<p>执行netstat命令，输出结果主要分为两部分：</p>
+<p>一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到</p>
+<p>一个是活跃的UNIX域套接字，称为有源Unix域套接口(跟网络套接字一样，但是只能用于本机通信，性能可以提高一倍)。Proto：显示连接使用的协议，RefCnt：表示连接到本套接口上的进程号，Types：显示套接口当前的状态，Path：表示连接到套接口的其他进程使用的路径名</p>
+<p>###常见参数</p>
+<p>-a (all)显示所有选项，默认不显示LISTEN相关</p>
+<p>-t (tcp)仅显示tcp相关选项</p>
+<p>-u (udp)仅显示udp相关选项</p>
+<p>-n 拒绝显示别名，能显示数字的全部转化成数字。</p>
+<p>-l 仅列出有在 Listen (监听) 的服務状态</p>
+<p>-p 显示建立相关链接的程序名</p>
+<p>-r 显示路由信息，路由表</p>
+<p>-e 显示扩展信息，例如uid等</p>
+<p>-s 按各个协议进行统计</p>
+<p>-c 每隔一个固定时间，执行该netstat命令。</p>
+<p>提示：LISTEN和LISTENING的状态只有用-a或者-l才能看到</p>
+<p>###常用命令</p>
+<ul>
+<li>netstat -at 列出所有的tcp端口(包括监听和未监听的)</li>
+<li>netstat -antl 列出所有处于监听状态的tcp端口</li>
+<li>netstat -s 显示所有端口的统计信息</li>
+<li>netstat -antlp | grep 3306 显示占用某个特定tcp端口的进程的pid <br><br>netstat -p可以与其它开关一起使用，就可以添加“PID/进程名称”到netstat输出中，这样可以很方便的发现特定端口运行的程序</li>
+</ul>
 
       
     </div>
