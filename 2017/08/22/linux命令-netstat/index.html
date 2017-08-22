@@ -96,18 +96,18 @@
 
 
 
-<meta name="description" content="netstat命令netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。 执行netstat命令，输出结果主要分为两部分： 一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到 一个是活跃的UNIX域">
+<meta name="description" content="netstat命令netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。 执行netstat命令，输出结果主要分为两部分： 一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到。 一个是活跃的UNIX">
 <meta name="keywords" content="linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux命令-netstat">
 <meta property="og:url" content="https://zhanghaipeng.github.io/2017/08/22/linux命令-netstat/index.html">
 <meta property="og:site_name" content="太阳那么大の博客">
-<meta property="og:description" content="netstat命令netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。 执行netstat命令，输出结果主要分为两部分： 一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到 一个是活跃的UNIX域">
+<meta property="og:description" content="netstat命令netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。 执行netstat命令，输出结果主要分为两部分： 一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到。 一个是活跃的UNIX">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-22T13:29:34.000Z">
+<meta property="og:updated_time" content="2017-08-22T13:35:58.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="linux命令-netstat">
-<meta name="twitter:description" content="netstat命令netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。 执行netstat命令，输出结果主要分为两部分： 一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到 一个是活跃的UNIX域">
+<meta name="twitter:description" content="netstat命令netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。 执行netstat命令，输出结果主要分为两部分： 一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到。 一个是活跃的UNIX">
 
 
 
@@ -362,8 +362,9 @@
       
         <h3 id="netstat命令"><a href="#netstat命令" class="headerlink" title="netstat命令"></a>netstat命令</h3><p>netstat命令的功能是显示网络连接、路由表和网络接口信息，可以让用户得知有哪些网络连接正在运作。</p>
 <p>执行netstat命令，输出结果主要分为两部分：</p>
-<p>一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到</p>
-<p>一个是活跃的UNIX域套接字，称为有源Unix域套接口(跟网络套接字一样，但是只能用于本机通信，性能可以提高一倍)。Proto：显示连接使用的协议，RefCnt：表示连接到本套接口上的进程号，Types：显示套接口当前的状态，Path：表示连接到套接口的其他进程使用的路径名</p>
+<p>一个是活跃的Internet连接，称为有源TCP连接，其中”Recv-Q”和”Send-Q”指接收队列和发送队列。这些数字一般都应该是0。如果不是则表示软件包正在队列中堆积。这种情况只能在非常少的情况下见到。</p>
+<p>一个是活跃的UNIX域套接字，称为有源Unix域套接口(跟网络套接字一样，但是只能用于本机通信，性能可以提高一倍)。Proto：显示连接使用的协议，RefCnt：表示连接到本套接口上的进程号，Types：显示套接口当前的状态，Path：表示连接到套接口的其他进程使用的路径名。</p>
+<a id="more"></a>
 <h3 id="常见参数"><a href="#常见参数" class="headerlink" title="常见参数"></a>常见参数</h3><p>-a (all)显示所有选项，默认不显示LISTEN相关</p>
 <p>-t (tcp)仅显示tcp相关选项</p>
 <p>-u (udp)仅显示udp相关选项</p>
